@@ -389,4 +389,7 @@ nav{
     .container{
     padding: 0;
     }
+    .logo {
+        margin-left: 20px;
+    }
 }

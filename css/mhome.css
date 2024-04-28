@@ -69,9 +69,9 @@ body {
     height: 35px;
     line-height: 35px;
     width: 150px;
-    color: rgb(210, 252, 255);
+    color: rgb(255, 255, 255);
     font-size: 22px;
-    text-shadow: 0 0 2px #fff,  0 0 8px aqua, 0 0 9px aqua;
+    text-shadow: 0 0 1px #fff,  0 0 10px rgb(255, 255, 255), 0 0 9px rgb(255, 255, 255);
 
 }
 
@@ -136,15 +136,18 @@ nav ul li a::after{
   top: 100%;
   left: 0;
   width: 100%;
-  height: 2px;
-  background: rgba(0, 255, 255, 0.9);
+  height: 1px;
+  background: rgba(255, 146, 146, 0.9);
+  box-shadow: 0 0 1px hsl(0, 100%, 65%),  0 0 10px rgb(255, 113, 113), 0 0 9px rgb(255, 118, 118);
   transform: translateY(50%) scaleX(0);
   transform-origin: center;
   transition: all 0.5s;
 }
 
 nav ul li a:hover{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
+  text-shadow: 0 0 1px hsl(0, 100%, 65%),  0 0 10px rgb(255, 113, 113), 0 0 9px rgb(255, 118, 118);
+  background-color: #3cff000e;
 }
 
 nav ul li a:hover::before{
@@ -767,8 +770,8 @@ nav{
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px
-    ;
+    max-width: 1200px;
+    justify-content: space-between;
 }
 .Contact > img{
     height: 70px;
@@ -952,5 +955,12 @@ a {
         display: none;
     }
   }
-
+@media screen and (max-width: 992px) {
+    .Contact{
+        flex-wrap: wrap;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+}
 /* end menubar */
