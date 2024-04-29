@@ -105,8 +105,6 @@ h2 {
     font-size: 50px;
     line-height: 1.2;;
     text-transform: uppercase;
-    letter-spacing: 6px;
-    word-spacing: 6px;
     text-align: center;
     margin: 0;
 }
@@ -174,8 +172,15 @@ nav{
 
 /* end animation navbar */
 
-
-
+.head1{
+    position: relative;
+    top: 100px;
+    color: white;
+    
+}
+.tl{
+    margin-bottom: 50px;
+}
 .in img, .in2 img, .in3 img {
     width: 100px;
     height: 100px;
@@ -205,10 +210,9 @@ nav{
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 65px;
     text-transform: uppercase;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
     z-index: 2;
     position:relative;
 }
@@ -221,7 +225,6 @@ nav{
     display: flex;
     text-align: center;
     margin-top: -20px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .in .t3, .in2 .t3, .in3 .t3 {
@@ -233,14 +236,12 @@ nav{
     margin: -5% 5%;
     padding: 10px 5%;
     display: flex;
-    font-family:'Courier New', Courier, monospace;
 }
 
 .in a, .in2 a, .in3 a {
     list-style: none;
     text-decoration: none;
     color: black;
-    font-family: 'Courier New', Courier, monospace;
     word-break: keep-all;
     font-size: 14px;
     margin-left: 65%;
