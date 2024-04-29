@@ -193,11 +193,15 @@ nav{
     font-family: ElectroBox;
     src: url(eElectroBox.ttf);
 }
-
+@font-face {
+    font-family: LostType;
+    src: url(LostType2023-Regular.otf);
+}
 .background-full {
-    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    background-size: 100% 955px;
     width: 100%;
-    height: 720px;
+    height: 955px;
     position: fixed;
     top: 0;
     left: 0;
@@ -211,8 +215,8 @@ nav{
     margin: 20px auto;
 }
 #story h2 {
-    font-weight: bold;
     color: rgb(128, 0 ,32);
+    font-family: "LostType";
 }
 div h2 {
     margin-bottom: 15px;
@@ -229,6 +233,9 @@ div p {
     width: 80%;
     text-align: center;
     margin: 0 auto;
+    word-wrap: 4px;
+    line-height: 25px;
+    font-size: 19px;
 }
 #KAT {
     width: 40%;
@@ -244,15 +251,17 @@ div p {
     opacity: 70%;
 }
 .str {
+    font-size: 19px;
     display: flex;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     flex-direction: row;
     margin: 20px 100px;
     column-gap: 50px;
+    word-wrap: 4px;
+    line-height: 25px;
 }
-.str p{
-    width: 50%;
+.str div{
     align-content: center;
 }
 .str img {
@@ -693,5 +702,8 @@ a {
     .contact p {
         font-size: 15px;
     }
-
+    .KAT {
+        font-size: 19px;
+        line-height: normal;
+    }
   }
