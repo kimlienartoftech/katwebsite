@@ -563,6 +563,7 @@ nav{
     margin-top: 20px;
     transition: all 0.5s;
     font-weight: bold;
+    background-color: rgb(197, 197, 197);
   }
   
   #buttonourstr:disabled, #btonachv:disabled, #btonreadmore:disabled {
@@ -749,7 +750,6 @@ nav{
 #btonreadmore {
     width:200px;
     height: 60px;
-    background: none;
     outline: none;
     color: #020202;
     font-size: 20px;
@@ -900,9 +900,10 @@ a {
     color: white;
     z-index: 0;
     height: 35px;
-    width: 45px;
     border: 2px solid black;
     border-radius: 5px;
+    padding-block: 1px;
+    padding-inline: 6px;
 }
 .menuicon {
     width: 23px;

@@ -210,6 +210,10 @@ nav{
     text-align: center;
     margin: 20px auto;
 }
+#story h2 {
+    font-weight: bold;
+    color: rgb(128, 0 ,32);
+}
 div h2 {
     margin-bottom: 15px;
     font-size: 33px;
@@ -552,7 +556,6 @@ a {
     color: white;
     z-index: 0;
     height: 35px;
-    width: 45px;
     border: 2px solid black;
     border-radius: 5px;
 }
@@ -655,14 +658,15 @@ a {
         width: 90%;
     }
     .styled-input input, .styled-input textarea, .submit-btn {
-        width: 75%;
+        width: 80%;
         margin: 0 auto;
     }
     .styled-input, .col-xs-12{
         text-align: center;
     }
     .styled-input label {
-        padding: 1.3rem 10px 1rem 10px;
+        padding: 1.3rem 10px 1rem 27px;
+        font-size: 15px;
     }
     .Whatis img {
         width: 90%;
@@ -689,4 +693,5 @@ a {
     .contact p {
         font-size: 15px;
     }
+
   }
