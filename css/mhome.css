@@ -71,8 +71,7 @@ body {
     width: 150px;
     color: rgb(255, 255, 255);
     font-size: 22px;
-    text-shadow: 0 0 1px #fff,  0 0 10px rgb(255, 255, 255), 0 0 9px rgb(255, 255, 255);
-
+    text-shadow: 0 0 3px #ff0707,  0 0 10px rgb(255, 0, 0), 0 0 9px rgb(255, 0, 0);
 }
 
 li {
@@ -137,8 +136,8 @@ nav ul li a::after{
   left: 0;
   width: 100%;
   height: 1px;
-  background: rgba(255, 146, 146, 0.9);
-  box-shadow: 0 0 1px hsl(0, 100%, 65%),  0 0 10px rgb(255, 113, 113), 0 0 9px rgb(255, 118, 118);
+  background: rgba(255, 177, 177, 0.9);
+  box-shadow: 0 0 1px hsl(0, 98%, 68%),  0 0 10px rgb(255, 47, 47), 0 0 9px rgb(255, 42, 42);
   transform: translateY(50%) scaleX(0);
   transform-origin: center;
   transition: all 0.5s;
@@ -146,7 +145,7 @@ nav ul li a::after{
 
 nav ul li a:hover{
   color: rgb(255, 0, 0);
-  text-shadow: 0 0 1px hsl(0, 100%, 65%),  0 0 10px rgb(255, 113, 113), 0 0 9px rgb(255, 118, 118);
+  text-shadow: 0 0 2px hsl(0, 0%, 0%),  0 0 10px #ff4b4b, 0 0 9px rgb(255, 48, 48);
   background-color: #3cff000e;
 }
 
@@ -498,7 +497,6 @@ nav{
     margin-right: auto;
 }
 #about-content {
-    margin-left: 20px;
     padding: 20px;
     position: relative;
     box-sizing: border-box;
@@ -701,14 +699,14 @@ nav{
 }
 
 #list-blog .item {
-    width: 290px;
-    height: 374px;
     background:#020202;
     border-radius: 10px;
     margin-bottom: 20px;
     background-size: cover;
     transition: transform 0.5s ease-in-out;
     transition: all 0.5s;
+    width: 290px;
+    height: 390px;
 }
 #list-blog .item:hover {
     transform: scale(1.05);
@@ -961,6 +959,44 @@ a {
     }
     .logo {
         margin-left: 20px;
+    } 
+    .slide h2 {
+        width: 450px;
+        font-size: 35px;
+    }
+    .about-item {
+        margin: 0 auto;
+    }
+    #row img {
+        height: auto;
+        width: 100%;
+        margin-right: 20px;
+    }
+    .about-content p {
+        margin-left: 0;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .next1 {
+        right: 90px;
+    }
+    .prev1 {   
+        left: 90px;
+    }
+    .docsbutton {
+        width: 50%;   
+    }
+    #list-blog {
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    #blog {
+        width: 100%;
+        padding: 0;
+    }
+    #blog .item {
+        height: 200px;
     }
 }
 /* end menubar */
