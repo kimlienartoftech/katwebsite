@@ -956,7 +956,6 @@ a {
 @media screen and (max-width: 992px) {
     body {
         width: 100%;
-        max-width: 320px;
     }
     .Contact{
         flex-wrap: wrap;
@@ -1039,6 +1038,9 @@ a {
     }
     .about-item h1 {
        text-align: center;
+    }
+    .rightup {
+        row-gap: 6px;
     }
 }
 /* end menubar */

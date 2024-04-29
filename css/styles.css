@@ -604,16 +604,37 @@ a {
     .menubar-open{
         display: none;
     }
-  }
-  @media screen and (max-width: 992px) {
-    .Contact{
-        flex-wrap: wrap;
-    }
 }
 /* end menubar */
 @media screen and (max-width: 992px){
     .navbar{
         display: none;
+    }
+    body {
+        width: 100%;
+    }
+    .Contact{
+        flex-wrap: wrap;
+        line-height: 20px;
+        padding: 0;
+        width: 100%;
+    }
+    .Contact div {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .contactsources {
+        font-size: 17px;
+    }
+    .contactsources2 {
+        padding-right: 20px;
+        row-gap: 15px;
+    }
+    .contactsources3 span {
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
     }
     .logo {
         margin-left: 20px;
@@ -630,24 +651,42 @@ a {
     .form{
         width: 90%;
     }
+    .input-container{
+        width: 90%;
+    }
     .styled-input input, .styled-input textarea, .submit-btn {
-        width: 80%;
+        width: 75%;
         margin: 0 auto;
     }
     .styled-input, .col-xs-12{
         text-align: center;
+    }
+    .styled-input label {
+        padding: 1.3rem 10px 1rem 10px;
     }
     .Whatis img {
         width: 90%;
         height: auto;
     }
     #KAT {
-        width: 70%;
+        width: 80%;
     }
     .str {
         flex-direction: column;
+        margin: 0 auto;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
     }
     .str p {
         width: 100%;
+    }
+    .str img {
+        width: 90%;
+        height: auto;
+    }
+    .contact p {
+        font-size: 15px;
     }
   }

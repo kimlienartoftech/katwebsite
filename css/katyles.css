@@ -516,8 +516,31 @@ a {
     }
   }
   @media screen and (max-width: 992px) {
+    body {
+        width: 100%;
+    }
     .Contact{
         flex-wrap: wrap;
+        line-height: 20px;
+        padding: 0;
+        width: 100%;
+    }
+    .Contact div {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .contactsources {
+        font-size: 17px;
+    }
+    .contactsources2 {
+        padding-right: 20px;
+        row-gap: 15px;
+    }
+    .contactsources3 span {
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
     }
 }
 /* end menubar */
