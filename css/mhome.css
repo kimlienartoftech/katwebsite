@@ -954,41 +954,71 @@ a {
     }
   }
 @media screen and (max-width: 992px) {
+    body {
+        width: 100%;
+        max-width: 320px;
+    }
     .Contact{
         flex-wrap: wrap;
+        line-height: 20px;
+        padding: 0;
+        width: 100%;
+    }
+    .Contact div {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .contactsources {
+        font-size: 17px;
+    }
+    .contactsources2 {
+        padding-right: 20px;
+        row-gap: 15px;
+    }
+    .contactsources3 span {
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
     }
     .logo {
         margin-left: 20px;
+    }
+    .slide h1 {
+        width: 100%;
+        text-align: center;
     } 
     .slide h2 {
-        width: 450px;
-        font-size: 35px;
+        width: 300px;
+        font-size: 30px;
     }
     .about-item {
         margin: 0 auto;
     }
     #row img {
         height: auto;
-        width: 100%;
-        margin-right: 20px;
+        width: 80%;
     }
     .about-content p {
         margin-left: 0;
     }
     h2 {
-        font-size: 40px;
+        font-size: 20px;
     }
     .next1 {
-        right: 90px;
+        right: 50px;
+        margin-top: 485px;
     }
     .prev1 {   
-        left: 90px;
+        left: 50px;
+        margin-top: 485px;
     }
     .docsbutton {
-        width: 50%;   
+        width: 80%;   
+        text-align: center;
+        padding: 0;
     }
     #list-blog {
-        flex-wrap: nowrap;
         width: 100%;
     }
     #blog {
@@ -997,6 +1027,18 @@ a {
     }
     #blog .item {
         height: 200px;
+    }
+    .about-content {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #about-content {
+        padding: 0;
+    }
+    .about-item h1 {
+       text-align: center;
     }
 }
 /* end menubar */
